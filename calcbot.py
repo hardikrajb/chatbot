@@ -1,6 +1,6 @@
 from random import randint
 def greet_random():
-    greetings=['hi','hello','vannakam','howdy']
+    greetings=['hi','hello','vannakam','howdy','namaste']
     return greetings[randint(0,len(greetings)-1)]
 '''chatbot.py'''
 greetings = greet_random()
